@@ -52,10 +52,11 @@ The script automatically creates an SQLite database (weather_data.db) and a dail
 
 
 ## Usage :
-   **Start the Weather Monitoring System: Run main.py to begin collecting and processing weather data:**
-    ```bash
+   **Start the Weather Monitoring System:
+       Run main.py to begin collecting and processing weather data:**
+
     python main.py
-    ```
+    
   This will:
   Fetch weather data for cities listed in CITIES (configured in config.py).
   Process and store temperature summaries.
