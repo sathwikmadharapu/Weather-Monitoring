@@ -25,10 +25,13 @@ This Weather Monitoring System collects and processes weather data for specific 
 
 ## Prerequisites
 - Python 3.x
-- OpenWeatherMap API key (premium account recommended but optional)
+- OpenWeatherMap API key (premium account recommended but even works with free verison with limited features)
 - Gmail account with "Allow less secure apps" enabled or an app-specific password if using 2FA
 
 ## Installation
+create a virtual envirolment (Optional)
+    
+    python -m venv venv
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/sathwikmadharapu/Weather-Monitoring.git
@@ -50,7 +53,7 @@ Email Addresses: Provide sender email, password, and recipient email for alerts.
 The script automatically creates an SQLite database (weather_data.db) and a daily_summary table.
 
 
-## Usage :
+## Usage:
    **Start the Weather Monitoring System:
        Run main.py to begin collecting and processing weather data:**
 
@@ -61,10 +64,10 @@ The script automatically creates an SQLite database (weather_data.db) and a dail
   Process and store temperature summaries.
   Send email alerts if a city’s temperature exceeds the threshold.
 
-## Scheduled Tasks :
+## Scheduled Tasks:
 1. Data Collection: Runs every minute to update weather information.
 2. Daily Summary Generation: Executes at 23:59 to summarize daily weather data and visualize trends.
 
-## Visualizations :
+## Visualizations:
 1. Daily Summary Graphs: Displays average, max, and min temperatures for the day.
 2. Temperature Trend Plot: Graphs historical temperature trends over time.
