@@ -1,0 +1,3 @@
+requests==2.31.0       # For API requests
+schedule==1.1.0        # For scheduling periodic tasks
+matplotlib==3.8.0      # For visualizations
