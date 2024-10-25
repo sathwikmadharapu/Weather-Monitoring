@@ -11,8 +11,7 @@ A Python-based system that monitors weather conditions, stores historical data, 
 6. [Usage](#usage)
 7. [Scheduled Tasks](#scheduled-tasks)
 8. [Visualizations](#visualizations)
-9. [Testing](#testing)
-10. [License](#license)
+
 
 ## Overview
 This Weather Monitoring System collects and processes weather data for specific cities using the OpenWeatherMap API. It supports both free and premium accounts, includes an alerting system to notify users of high temperatures, and visualizes historical temperature trends.
@@ -66,12 +65,6 @@ The script automatically creates an SQLite database (weather_data.db) and a dail
 1. Data Collection: Runs every minute to update weather information.
 2. Daily Summary Generation: Executes at 23:59 to summarize daily weather data and visualize trends.
 
-## Visualizations
+## Visualizations :
 1. Daily Summary Graphs: Displays average, max, and min temperatures for the day.
 2. Temperature Trend Plot: Graphs historical temperature trends over time.
-
-
-##Testing
-Run tests in test_weather_system.py to validate functionality:
-    
-    python -m unittest discover
